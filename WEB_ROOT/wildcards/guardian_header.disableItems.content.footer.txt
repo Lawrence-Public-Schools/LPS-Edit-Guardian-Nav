@@ -1,0 +1,9 @@
+<script>
+  // Disable specific buttons by hiding them
+  $j(document).ready(function () {
+    $j("#insertLink3").hide(); // Hides the #insertLink3 section
+    $j("#btn-emailNotification").hide(); // Hides the Email Notification button
+    $j("#btn-docMgmt").hide(); // Hides the Document Library button
+    $j("#btn-lunchmenu").hide(); // Hides the Lunch Menu button
+  });
+</script>
